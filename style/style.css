@@ -183,7 +183,6 @@ body {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -193,6 +192,10 @@ body {
     text-align: center;
     cursor: pointer;
     user-select: none;    
+}
+
+.searchbtn *:hover{
+    border: 1px solid #bcbbbb49;
 }
 /* Search button */
 
@@ -211,8 +214,14 @@ body {
     padding: 0 3px;
     font-size: small;
     font-weight: lighter;
+    text-decoration: none;
 }
-
+.lang a{
+    color: #1a0dab;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
 /* Language change area */
 
 /* Bottom */
